@@ -25,12 +25,12 @@
 // ------------------------------------------------------------------------------------------------------------
 // |   `   |  BT1  |  BT2  |  BT3  |  BT4  |  BT5  |          |       |       |       |   -   |   =   | BTCLR |
 // |       |       |       |  UARW |       |       |          |       |       |       |       |       |       |
-// |       |       |  LARW |  DARW |  RARW |       |          |       |  BKSP |       |       |   ‘   |       |
+// |       |       |  LARW |  DARW |  RARW |       |          |       |       |       |       |  BKSP |   ‘   |
 // |       |       |       |       |       |       |          | TOG 2 |       |   [   |    ]  |       |  DEL  |
                         bindings = <
    &kp GRAVE &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4           &trans    &trans    &trans   &kp MINUS &kp EQUAL &bt BT_CLR
    &trans    &trans         &trans         &kp UARW       &trans         &trans                 &trans    &trans    &trans   &trans    &trans    &trans
-   &trans    &trans         &kp LARW       &kp DARW       &kp RARW       &trans                 &trans    &kp BSPC  &trans   &trans    &kp APOS  &trans
+   &trans    &trans         &kp LARW       &kp DARW       &kp RARW       &trans                 &trans    &trans    &trans   &trans    &kp BSPC  &kp APOS
    &trans    &trans         &trans         &trans         &trans         &trans                 &tog 2    &trans    &kp LBKT &kp RBKT  &trans    &kp DEL
                         >;
                 };
